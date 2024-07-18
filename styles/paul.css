@@ -2580,9 +2580,16 @@ ul li {
 }
 
 main article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 1rem;
   --tw-bg-opacity: 1;
   background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 @media (min-width: 640px) {
